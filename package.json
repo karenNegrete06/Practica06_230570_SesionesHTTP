@@ -1,0 +1,27 @@
+{
+  "name": "practica06_230570_sesioneshttp",
+  "version": "1.0.0",
+  "description": "Integración de la base de datos MongoDB al proyecto de SessionesHTTP",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "dev":"node app.js"
+  },
+  "author": "Karen Lizbeth Negrete Hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "fs": "^0.0.1-security",
+    "macaddress": "^0.5.3",
+    "moment-timezone": "^0.5.47",
+    "mongoose": "^8.10.0",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
